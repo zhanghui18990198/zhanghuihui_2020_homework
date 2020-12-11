@@ -1,0 +1,45 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 838 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 5426181 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/invoke/DirectMethodHandle internalMemberName (Ljava/lang/Object;)Ljava/lang/Object; 2969 1 416586 0 -1
+ciMethod java/nio/Buffer <init> (IIII)V 361 1 6220 0 384
+ciMethod java/nio/Buffer position ()I 1065 1 133 0 0
+ciMethod java/nio/Buffer position (I)Ljava/nio/Buffer; 657 1 5255 0 128
+ciMethod java/nio/Buffer limit (I)Ljava/nio/Buffer; 2049 1 9228 0 0
+ciMethod java/nio/Buffer nextGetIndex ()I 25 1 6683 0 0
+ciMethod java/nio/Buffer nextGetIndex (I)I 3305 1 6625 0 96
+ciMethod java/util/ArrayList <init> (I)V 3073 1 5523 0 -1
+ciMethod java/util/ArrayList <init> ()V 1529 1 127263 0 -1
+ciMethod java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 529 1 6309 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 2129 1 129073 0 -1
+ciMethod java/lang/Math ceil (D)D 3185 1 10855 0 -1
+ciMethod java/lang/Math abs (I)I 4137 1 1682 0 0
+ciMethod java/lang/Math max (JJ)J 2089 1 20019 0 -1
+ciMethod java/util/Arrays hashCode ([Ljava/lang/Object;)I 2129 5369 11909 0 288
+ciMethodData java/lang/Object <init> ()V 2 5426192 orig 264 88 131 99 89 0 0 0 0 128 4 207 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 129 80 150 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/nio/ByteBuffer get ()B 0 0 1 0 -1
+ciMethod java/nio/ByteBuffer _get (I)B 0 0 1 0 -1
+ciMethod java/nio/ByteBuffer getShort ()S 0 0 1 0 -1
+ciMethod java/nio/ByteBuffer getInt ()I 0 0 1 0 -1
+ciMethod java/nio/HeapByteBuffer ix (I)I 433 1 103647 0 0
+ciMethod java/nio/HeapByteBuffer get ()B 2169 1 5618 0 160
+ciMethod java/nio/HeapByteBuffer _get (I)B 2161 1 142296 0 0
+ciMethod java/nio/HeapByteBuffer getShort ()S 4097 1 24257 0 320
+ciMethod java/nio/HeapByteBuffer getInt ()I 4097 1 22394 0 288
+ciMethod java/nio/Bits makeShort (BB)S 4097 1 24258 0 0
+ciMethod java/nio/Bits getShortL (Ljava/nio/ByteBuffer;I)S 0 0 15117 0 0
+ciMethod java/nio/Bits getShortB (Ljava/nio/ByteBuffer;I)S 4097 1 9141 0 0
+ciMethod java/nio/Bits getShort (Ljava/nio/ByteBuffer;IZ)S 4097 1 24257 0 0
+ciMethod java/nio/Bits makeInt (BBBB)I 3137 1 6752 0 64
+ciMethod java/nio/Bits getIntL (Ljava/nio/ByteBuffer;I)I 2169 1 26789 0 0
+ciMethod java/nio/Bits getIntB (Ljava/nio/ByteBuffer;I)I 1057 1 132 0 -1
+ciMethod java/nio/Bits getInt (Ljava/nio/ByteBuffer;IZ)I 2481 1 26921 0 0
+ciMethod java/lang/invoke/MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodHandle invokeBasic ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/AssertionError <init> ()V 0 0 1 0 -1
+ciMethodData java/nio/Buffer <init> (IIII)V 2 6220 orig 264 88 131 99 89 0 0 0 0 240 81 216 23 0 0 0 0 40 4 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 0 0 0 249 192 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 192 2 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 88 0x10002 0x181f 0x100007 0x1821 0xd0 0x0 0x1b0002 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x250005 0x0 0x0 0x0 0x0 0x0 0x280005 0x0 0x0 0x0 0x0 0x0 0x2b0002 0x0 0x370005 0x1171 0x22326d60 0x6a1 0x22326e10 0x10 0x3d0005 0x1173 0x22326d60 0x6a1 0x22326e10 0x10 0x420007 0x1823 0x180 0x0 0x470007 0x0 0x160 0x0 0x520002 0x0 0x570005 0x0 0x0 0x0 0x0 0x0 0x5b0005 0x0 0x0 0x0 0x0 0x0 0x600005 0x0 0x0 0x0 0x0 0x0 0x640005 0x0 0x0 0x0 0x0 0x0 0x690005 0x0 0x0 0x0 0x0 0x0 0x6c0005 0x0 0x0 0x0 0x0 0x0 0x6f0002 0x0 oops 4
